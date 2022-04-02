@@ -73,17 +73,13 @@ def new_post(username,password,file,text):
 	share_button.click()
 
 
-usrname='laf1_pensa'
-pswd = 'Massimopaola95€'
-file_dir="/media/leonardo/864E-9799/botmag.png"
-
-caption='Magnussen VS Bottas \nSaudi Arabia GP Qualifying \n\n #formula1\n#jeddah\n#telemetry\n#saudiarabia\n#haasf1\n#skysport\n#motorsport.com\n@haasf1team\n@alfaromeoorlen\n@kevinmagnussen\n@valtteribottas\n@skysportf1\n@f1'
 
 
-#usrname=input("Username: ")
-#pswd = getpass.getpass("Password:  ")
-#file_dir=input("File directory: ")
-#caption=input("Caption: ")
+
+usrname=input("Username: ")
+pswd = getpass.getpass("Password:  ")
+file_dir=input("File directory: ")
+caption=input("Caption: ")
 
 new_post(usrname,pswd,file_dir,caption)
 
